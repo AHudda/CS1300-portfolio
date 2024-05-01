@@ -1,11 +1,25 @@
 
+/* Fonts */
+@font-face {
+    font-family: 'Source Serif Regular';
+    src: url('assets/Source_Serif_4/static/SourceSerif4_18pt-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('assets/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('assets/Roboto/Roboto-Light.ttf') format('truetype');
+}
+
 /* Navigation bar styling */
 
 .header-links{
     margin-top: 20px;
     margin-left: 1100px;
     font-size: 1.3rem;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Source Serif Regular', serif;
     font-weight: 100;
 }
 .link{
@@ -29,6 +43,11 @@ a{
 .body-content{
     display: flex;
     flex-direction: column;
+    font-family: 'Source Serif Regular', serif;
+
+    p{
+        font-family: 'Roboto Regular', serif;
+    }
 }
 
 /* Project styling */
@@ -46,10 +65,26 @@ a{
 .project-card{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    overflow-wrap: break-word;
+    width: 300px;
+
+    h2{
+        margin-bottom: 10px;
+    }
+
+    p{
+        margin-top: 0px;
+        color: #7f7f7f;
+    }
 }
 
 .project-image{
-    max-width: 200px;
+    width: 100%;
+    height: auto;
     margin-left: 100px;
     margin-right: 100px;
 }
