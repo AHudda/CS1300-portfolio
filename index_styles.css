@@ -26,7 +26,6 @@
 }
 
 /* Navigation bar styling */
-
 .header-links{
     margin-top: 20px;
     margin-left: 900px;
@@ -49,7 +48,7 @@
     overflow: hidden;
     margin-left: 20px;
     font-weight: 100;
-    font-family: 'Source Serif Bold', serif;
+    font-family: 'Source Serif Regular', serif;
     text-decoration: underline;
 }
 
@@ -58,7 +57,6 @@ a{
 }
 
 /* Body styling */
-
 .body-content{
     display: flex;
     flex-direction: column;
@@ -70,7 +68,6 @@ a{
 }
 
 /* Project styling */
-
 .project-library{
     display: flex;
     flex-direction: column;
