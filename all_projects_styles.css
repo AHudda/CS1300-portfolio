@@ -9,12 +9,16 @@
     src: url('assets/Source_Serif_4/static/SourceSerif4_18pt-SemiBold.ttf') format('truetype');
 }
 @font-face {
+    font-family: 'Roboto Light';
+    src: url('assets/Roboto/Roboto-Light.ttf') format('truetype');
+}
+@font-face {
     font-family: 'Roboto Regular';
     src: url('assets/Roboto/Roboto-Regular.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'Roboto Light';
-    src: url('assets/Roboto/Roboto-Light.ttf') format('truetype');
+    font-family: 'Roboto Bold';
+    src: url('assets/Roboto/Roboto-Bold.ttf') format('truetype');
 }
 
 /* Site styling */
@@ -57,6 +61,19 @@ a{
 }
 
 /* Project Header styling */
+
+.extra-top-margin{
+    margin-top: 50px;;
+}
+
+.smaller-left-margin{
+    margin-left:-80px;
+}
+
+.roboto-bold{
+    font-family: 'Roboto Bold', serif;
+}
+
 .project-header{
     text-align: center;
 
@@ -75,12 +92,12 @@ a{
 
 .project-section{
     h3{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         font-family: 'Source Serif Regular', serif;
         margin-bottom: 10px;
     }
     p{
-        font-size: 1.0rem;
+        font-size: 1.1rem;
         font-family: 'Roboto Regular', serif;
         color: #6c6c6c;
         margin-top: 5px;
@@ -89,8 +106,56 @@ a{
     a{
         color: blue;
     }
-    img{
-        width: 75%;
-        height: auto;
-    }
+}
+
+.largestImageSpecification{
+    width: 100%;
+    height: auto;
+    margin-bottom: 11px;
+}
+
+.largeImageSpecification{
+    width: 90%;
+    height: auto;
+    margin-bottom: 11px;
+}
+
+.standardImageSpecification{
+    width: 80%;
+    height: auto;
+    margin-bottom: 11px;
+}
+
+.mediumImageSpecification{
+    width: 65%;
+    height: auto;
+    margin-bottom: 11px;
+}
+
+.smallerImageSpecification{
+    width: 50%;
+    height: auto;
+}
+.smallestImageSpecification{
+    width: 30%;
+    height: auto;
+}
+
+.tinyImageSpecifcation{
+    width: 25%;
+    height: 80%;
+    margin-left: 57px;
+}
+
+.parallel_images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallel_images_left_align{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
