@@ -32,7 +32,7 @@
 /* Navigation bar styling */
 .header-links{
     margin-top: 20px;
-    margin-left: 900px;
+    margin-left: 800px;
     font-size: 1.3rem;
     font-family: 'Source Serif Regular', serif;
     font-weight: 100;
@@ -68,6 +68,10 @@ a{
 
 .smaller-left-margin{
     margin-left:-80px;
+}
+
+.smaller-bottom-margin{
+    margin-bottom: 10px;
 }
 
 .roboto-bold{
