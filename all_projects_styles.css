@@ -62,18 +62,6 @@ a{
 
 /* Project Header styling */
 
-.extra-top-margin{
-    margin-top: 50px;;
-}
-
-.smaller-left-margin{
-    margin-left:-80px;
-}
-
-.smaller-bottom-margin{
-    margin-bottom: 10px;
-}
-
 .roboto-bold{
     font-family: 'Roboto Bold', serif;
 }
@@ -131,7 +119,7 @@ a{
 }
 
 .mediumImageSpecification{
-    width: 65%;
+    width: 70%;
     height: auto;
     margin-bottom: 11px;
 }
@@ -162,4 +150,22 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.extra-top-margin{
+    margin-top: 50px;;
+}
+
+.smaller-left-margin{
+    margin-left:-80px;
+}
+
+.smaller-bottom-margin{
+    margin-bottom: 10px;
+}
+
+.center-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
