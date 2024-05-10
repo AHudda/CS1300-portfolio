@@ -84,8 +84,17 @@ hr {
     font-family: 'Roboto Italics', serif;
 }
 
+.text-black{
+    color: black;
+}
+
 .right-align{
     text-align: right;
+}
+
+.center-align{
+    display: flex;
+    align-items: center;
 }
 
 .project-header{
@@ -136,7 +145,6 @@ hr {
     width: 100%;
     height: auto;
     margin-bottom: 11px;
-    border: 2px solid black;
 }
 
 .largeImageSpecification{
@@ -160,18 +168,27 @@ hr {
 .smallerImageSpecification{
     width: 50%;
     height: auto;
-    border: 2px solid black;
 }
+
+.midSmallImageSpecification{
+    width: 40%;
+    height: auto;
+}
+
 .smallestImageSpecification{
     width: 30%;
     height: auto;
-    border: 2px solid black;
 }
 
 .tinyImageSpecifcation{
     width: 25%;
     height: 80%;
     margin-left: 57px;
+}
+
+.image-border{
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .vertical-images{
@@ -184,6 +201,7 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .parallel_images_left_align{
@@ -197,12 +215,29 @@ hr {
     flex-direction: row;
 }
 
+.align_spacing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p{
+        margin-right: 100px;
+        margin-left: 200px;
+        font-family: 'Roboto Italics', serif;
+        text-align: right;
+    }
+}
+
 .extra-top-margin{
     margin-top: 50px;;
 }
 
 .smaller-left-margin{
     margin-left:-80px;
+}
+
+.larger-left-margin{
+    margin-left: 350px;
 }
 
 .no-bottom-margin{
