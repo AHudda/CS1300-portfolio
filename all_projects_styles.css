@@ -92,6 +92,10 @@ hr {
     text-align: right;
 }
 
+.left-align{
+    text-align: left;
+}
+
 .center-align{
     display: flex;
     align-items: center;
@@ -129,6 +133,13 @@ hr {
     a{
         color: blue;
     }
+}
+
+ol{
+    font-size: 1.1rem;
+    font-family: 'Roboto Regular', serif;
+    color: #6c6c6c;
+    line-height: 1.75;
 }
 
 .text_box_middle{
@@ -224,7 +235,18 @@ hr {
         margin-right: 100px;
         margin-left: 200px;
         font-family: 'Roboto Italics', serif;
-        text-align: right;
+    }
+}
+
+.align_spacing_flipped{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p{
+        margin-right: 200px;
+        margin-left: 100px;
+        font-family: 'Roboto Italics', serif;
     }
 }
 
@@ -236,8 +258,19 @@ hr {
     margin-left:-80px;
 }
 
+.personas-left-margin{
+    margin-left: 100px;
+}
+
 .larger-left-margin{
     margin-left: 350px;
+}
+.largest-left-margin{
+    margin-left: 450px;
+}
+
+.larger-right-margin{
+    margin-right: 475px;
 }
 
 .no-bottom-margin{
@@ -245,6 +278,9 @@ hr {
 }
 .smaller-bottom-margin{
     margin-bottom: 10px;
+}
+.medium-bottom-margin{
+    margin-bottom: 50px;
 }
 .larger-bottom-margin{
     margin-bottom: 125px;
