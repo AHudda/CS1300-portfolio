@@ -202,6 +202,11 @@ ol{
     margin-left: 57px;
 }
 
+.superTinyImageSpecification{
+    width: 18%;
+    height: auto;
+}
+
 .image-border{
     border: 2px solid black;
     border-radius: 10px;
@@ -230,6 +235,28 @@ ol{
 .parallel_content{
     display: flex;
     flex-direction: row;
+}
+
+.parallel_development{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+.parallel_text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.parallel_left_text{
+    margin-left: 250px
+
+}
+
+.parallel_right_text{
+    margin-right: 100px;
 }
 
 .align_spacing{
@@ -269,6 +296,10 @@ ol{
 
 .smaller-left-margin{
     margin-left:-80px;
+}
+
+.smallest-left-margin{
+    margin-left:-40px;
 }
 
 .personas-left-margin{
